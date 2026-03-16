@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    background-image: url(/assets/images/monitoring.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        font-family: "Rubik Glitch", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100px;
+        color: white;
+        background: rgba(255, 127, 80, 0);
+    }
+
+
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+
+
+    #btnplay {
+        font-family: "Neuton", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        background: rgb(4, 173, 4);
+        margin: 2px;
+        width: auto;
+        border-radius: 12px;
+        color: white;
+        padding: 10px;
+    }
+
+    h2 {
+        color: white;
+        font-family: "Neuton", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        background-color: rgba(240, 248, 255, 0);
+        font-size: 50px;
+    }
+
+    .boxrep {
+        display:flex;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.564);
+
+
+
+        .btnrep {
+            font-family: "Neuton", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+            background: rgb(4, 173, 4);
+            margin: 2px;
+            width: 40%;
+            border-radius: 12px;
+            color: white;
+            margin: 10px;
+        }
+
+        .btnrep:hover {
+            background: red;
+        }
+
+
+    }
+    .checkContainer{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+}
