@@ -6,7 +6,7 @@
 
 body {
     background-color: rgb(32, 32, 32);
-    background-image: url(./assets/images/monitoring.gif);
+    background-image: url(../../assets/images/monitoring.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -62,7 +62,7 @@ main {
     }
 
     .boxrep {
-        display:flex;
+        display: flex;
         align-items: center;
         background-color: rgba(0, 0, 0, 0.564);
 
@@ -87,11 +87,33 @@ main {
 
 
     }
-    .checkContainer{
+
+    .checkContainer {
 
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: black;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        h1 {
+            font-size: 60px;
+        }
+    }
+
+    #questionContainer{
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+
+    .boxrep {
+
+        display: flex;
+        flex-direction: column;
     }
 }
