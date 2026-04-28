@@ -6,7 +6,7 @@
 
 body {
     background-color: rgb(32, 32, 32);
-    background-image: url(/assets/images/monitoring.gif);
+    background-image: url(../../assets/images/monitoring.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
